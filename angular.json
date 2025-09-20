@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "segundo-parcial": {
+    "manaco": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -63,10 +63,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "segundo-parcial:build:production"
+              "buildTarget": "manaco:build:production"
             },
             "development": {
-              "buildTarget": "segundo-parcial:build:development"
+              "buildTarget": "manaco:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,11 +86,14 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "/public/css/styles.css"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7be464b8-60d3-4e89-989f-87708ecc7376"
   }
 }

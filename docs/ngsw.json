@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1758580172172,
+  "timestamp": 1758585158085,
   "index": "/index.csr.html",
   "assetGroups": [
     {
@@ -78,7 +78,7 @@
     "/assets/img/team/2.jpg": "687652ca4c569564c530cc9fff4ee019e79925b1",
     "/assets/img/team/3.jpg": "4beea948ecaa51f56d6c49806f8527380c6bb383",
     "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/index.html": "bad0661f5d34af81e498f3da2eb124f6ec81b798",
+    "/index.html": "d06b009de8090e209bf1fab4310b8e1bba22439b",
     "/main-JQWWHRKI.js": "a6f03b7cfaed6de89f33fd520a0775cc5e7b7bed",
     "/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },

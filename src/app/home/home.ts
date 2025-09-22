@@ -4,13 +4,13 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   standalone: true,
   templateUrl: './home.html',
-  styleUrl: './home.scss'
+  styleUrls: ['./home.scss']
 })
 export class Home {
 
-   constructor() { }
+  constructor() { }
 
-   // Solicitar permiso al usuario
+  // Solicitar permiso al usuario
   solicitarPermiso() {
     if ('Notification' in window) {
       Notification.requestPermission().then(permission => {
@@ -25,11 +25,12 @@ export class Home {
     }
   }
 
+  // Mostrar notificación local
   mostrarNotificacion() {
     if ('Notification' in window && Notification.permission === 'granted') {
       new Notification('Notificación de prueba', {
         body: '¡Hola! Esto es una notificación local desde la app.',
-        icon: 'assets/icon.png' // opcional, agrega un icono
+        icon: 'assets/icon.png' // opcional
       });
     } else {
       alert('No tienes permiso para mostrar notificaciones');

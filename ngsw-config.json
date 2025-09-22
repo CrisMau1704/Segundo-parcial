@@ -7,30 +7,24 @@
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "/favicon.ico",
           "/index.html",
-          "/manifest.webmanifest",
           "/*.css",
-          "/*.js"
+          "/*.js",
+          "/favicon.ico"
+        ],
+        "urls": [
+          "/assets/css/**",
+          "/assets/js/**"
         ]
       }
     },
     {
-      "name": "assets",
+      "name": "images",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/assets/**/*.svg",
-          "/assets/**/*.jpg",
-          "/assets/**/*.jpeg",
-          "/assets/**/*.png",
-          "/assets/**/*.gif",
-          "/assets/**/*.webp",
-          "/assets/**/*.woff",
-          "/assets/**/*.woff2",
-          "/assets/**/*.ttf",
-          "/assets/**/*.otf"
+          "/assets/img/**"
         ]
       }
     }
